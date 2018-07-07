@@ -124,6 +124,10 @@ h1{
     font-family:'Lato', sans-serif;
    }
 
+#institution{
+    width:360px;
+}
+
 #address,#otherabilities{
     resize: none;
     font-size: 13pt;
