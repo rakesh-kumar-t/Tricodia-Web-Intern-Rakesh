@@ -36,14 +36,13 @@
   font-family: 'Raleway', sans-serif  ;
 }
 #formhead {
-    background-color: #757575;
+    background-color: #e0e0e0;
     padding-top: 2;
     padding-left: 10;
-    top: 5;
-    left: 0;
+    margin: 0;
     font-size: 23;
     font-family: 'Agency FB';
-    color: white;
+    color: black;
    }
 
 #formbody{
@@ -71,3 +70,10 @@
     height:25px;
     width:250px;
    }
+
+#footer{
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 400;
+    color:#424242;
+    padding-bottom: 2%;
+}
