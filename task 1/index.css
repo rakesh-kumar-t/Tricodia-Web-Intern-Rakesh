@@ -2,24 +2,25 @@
 
 .header
 {
-	width:1240;
+	width:100%;
 	position:relative;
-	text-align:center;
-	height:150px;
+	vertical-align:middle;
+	height:120px;
 	float:relative;
 	background-color:#ffffff;
+}
+.space{
+	width:100px;
+	display:inline-block;
 }
 .container
 {
 	padding-right:15px;
-	border:1px solid grey;
+	border:0px solid grey;
 	float:center;
-	font-family: Century Schoolbook;
+	font-family: Verdana;
 	display:inline-block;
-	padding-left:auto;
-	margin-left:auto;
-	margin-right:auto;
-}
+	}
 ul{
 	background-color:#232955;
 	list-style-type:none;
@@ -29,7 +30,7 @@ ul{
 }
 li{
 	width:25%;
-	float:left;
+	float:right;
 }
 li a, .dropbtn {
     background-color:#232955;
@@ -60,12 +61,14 @@ li a:hover, .dropdown:hover .dropbtn{
 .dropdown-content a {
 	background-color:white;
 	color:#000000;
+	border:.5px solid #cddccd;
 	font-family:"Lucida Fax";
 	font-weight:lighter;
 	text-decoration:none;
 	padding: 12px 16px;
     text-align:left;
     display:block;
+    
 }
 .dropdown-content a:hover{
 	color:green;
@@ -75,3 +78,69 @@ li a:hover, .dropdown:hover .dropbtn{
 	display:block;
 	background-color:#ffffff;
 }
+.containerimg{
+	position:relative;
+	
+
+}
+
+.textpos{
+	position:absolute;
+	top:150px;
+	left:180px;
+	opacity:.1;
+
+}
+h3.sp
+{
+	font-family:Verdana;
+	font-weight:bold;
+	color:#000000;
+	font-size:19px;
+}
+h2{
+	font-family:Verdana;
+	color:white;
+	font-weight:bold;
+	font-size:35px;	
+}
+h3{
+	font-family:Verdana;;
+	color:white;
+	font-weight:bold;
+	font-size:30px;	
+}
+h4{
+	font-family:Verdana;;
+	color:white;
+	font-weight:lighter;
+	font-size:15px;	
+}
+
+
+.image{
+	opacity:1;
+	width:100%;
+	height:550px;
+	transition:.5s ease;
+}
+
+.containerimg:hover .image{
+	-webkit-filter:brightness(30%);
+	filter:brightness(30%);
+	
+}
+.containerimg:hover .textpos{
+	opacity:1;
+}
+
+
+
+
+
+
+
+
+
+
+
