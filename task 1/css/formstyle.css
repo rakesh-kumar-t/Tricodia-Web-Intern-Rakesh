@@ -79,3 +79,10 @@
     color:#424242;
     padding-bottom: 2%;
 }
+
+#about{
+    color:#616161;
+    font-family: 'Roboto', sans-serif;
+    border-width: 2px;
+    border-color: solid black;
+}
