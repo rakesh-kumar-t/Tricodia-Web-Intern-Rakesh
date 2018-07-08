@@ -1,46 +1,81 @@
 <html>
 <head>
   <title>Application form</title>
-  <style>
-.button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 6px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-</style>
+    <link rel="stylesheet" type="text/css" href="css/formstyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body bgcolor="#f4f471">
-  <font face="Verdana" size=3>
-  <header align=center>
-    <h1>Apply to become an AVENGER right now!!</h1>
-    <hr><hr>
-  </header>
+<body bgcolor="#757575">
+
+
+      <div id=formhead>
+        <header>
+          <h1><img src="Avengers-logowhite.png" height=75 width=70>Apply to become an AVENGER right now!!</h1>
+          <hr>
+        </header>
+        </div>
+      </section>
   <a href="index.html" class=button>Home</a><br><br>
-  <form action="action_page.html" method="get">
-    <font size=2>
-  FULL NAME: <input type="text" name="fname" required ><br><br>
-SUPERHERO NAME:<input tye=text name=snmame required><br><br>
-  COUNTRY &nbsp;&nbsp;&nbsp;: <input type="text" name="lname" required ><br><br>
-  GENDER:<br><input type=radio name=gender checked required >Male<br>
-            <input name=gender type=radio required >Female<br>
-            <input name=gender type=radio required >Transgender<br><br>
-  SKILLS/ABILITES:(check all that apply)<br><input type=checkbox name=field>FLYING<br>
-                    <input type=checkbox name=field >SWIMMING<br>
-                    <input type=checkbox name=field>INSTANT KILL<br>
-                    <input type=checkbox name=field >CLIMBING<br>
-                    <input type=checkbox name=field >SHRINKING<br>
-                    <input type=checkbox name=field >FIREPOWER<br>
-                    <input type=checkbox name=field >MYSTIC POWER<br>
-                    <input type=checkbox name=field>OTHERS(specify)<br>
-<textarea rows="4" cols="50" name=otherabilities></textarea><br>
+
+  <section align=center id=formbody>
+    <div align=left id=form>
+      <form action="action_page.html" method="get">
+      <font size=2><br>
+        <div align=left id=inhead>
+        <font face="'Roboto', sans-serif" color="#424242">Enter your details</font>
+      </div>
+      <b>
+        <label for=fname>FULL NAME:</label> <br>
+        <input type="text" id=fname name="fname" required ><br><br>
+        <label for=sname>SUPERHERO NAME:</label><br>
+        <input tye=text id=sname name=snmame required><br><br>
+        <label for=country>COUNTRY &nbsp;:</label>
+                          <select id=country name=country>
+                          <option value="Argentina" >Argentina</option><br><br>
+                          <option value="Australia" >Australia</option><br>
+                          <option value="Austria" >Austria</option><br>
+                          <option value="Bangladesh" >Bangladesh</option><br>
+                          <option value="Brazil" >Brazil</option><br>
+                          <option value="Canada" >Canada</option><br>
+                          <option value="China" >China</option><br>
+                          <option value="Denmark" >Denmark</option><br>
+                          <option value="Egypt" >Egypt</option><br>
+                          <option value="Ethyopia" >Ethyopia</option><br>
+                          <option value="Equador" >Equador</option><br>
+                          <option value="Finland" >Finland</option><br>
+                          <option value="Germany" >Germany</option><br>
+                          <option value="Hungary" >Hungary</option><br>
+                          <option value="Iceland" >Iceland</option><br>
+                          <option value="Ireland" >Ireland</option><br>
+                          <option value="India" selected>India</option><br>
+                          <option value="Japan" >Japan</option><br>
+                          <option value="Jordan" >Jordan</option><br>
+                          <option value="Kazakisthan" >Kazakisthan</option><br>
+                          <option value="Korea" >Korea</option><br>
+                          <option value="Malaysia" >Malaysia</option><br>
+                          <option value="Morocco" >Morocco</option><br>
+                          <option value="Netherlands" >Netherlands</option><br>
+                          <option value="Nigeria" >Nigeria</option><br>
+                          <option value="Pakistan" >Pakistan</option><br>
+                          <option value="Portugal" >Portugal</option><br>
+                          <option value="Russia">Russia</option><br>
+                          <option value="Singapore" >Singapore</option><br>
+                          <option value="Spain" >Spain</option><br>
+                          <option value="Switzerland" >Switzerland</option><br>
+</select><br><br>
+
+  GENDER:<br><label><input type=radio name=gender checked required >Male</label><br>
+            <label><input name=gender type=radio required >Female</label><br>
+            <label><input name=gender type=radio required >Transgender</label><br><br>
+  SKILLS/ABILITES:(check all that apply)<br>
+                    <input type=checkbox id=flying name=field><label for=flying>FLYING</label><br>
+                    <input type=checkbox id=swimming name=field ><label for=swimming>SWIMMING</label><br>
+                    <input type=checkbox id="inskill" name=field><label for=inskill>INSTANT KILL</label><br>
+                    <input type=checkbox id=climbing name=field ><label for=climbing>CLIMBING</label><br>
+                    <input type=checkbox id=shrinking name=field><label for=shrinking>SHRINKING</label><br>
+                    <input type=checkbox id=firepower name=field ><label for=firepower>FIREPOWER</label><br>
+                    <input type=checkbox id=mpower name=field ><label for=mpower>MYSTIC POWER</label><br>
+                    <input type=checkbox id=others name=field><label for=others>OTHERS(specify)</label><br>
+                    <br><textarea rows="4" cols="50" name=otherabilities id=others></textarea><br><br>
     FAVORITE AVENGER:<select name="superhero" >
                 <option value="HULK" selected>HULK</option>
                 <option value="IRON MAN">IRON MAN</option>
@@ -53,10 +88,12 @@ SUPERHERO NAME:<input tye=text name=snmame required><br><br>
                 <option value="DR.STRANGE">DR.STRANGE</option>
                 <option value="NICK FURY">NICK FURY</option>
               </select><br>
-<br><p><input type=checkbox name=finalagree required>I agree to all <a href="tandc.html">terms and conditions</a> of the AVENGERS initiative and obliged to follow it irrespective of its frequent updations.</p>
-  <br><input type="submit" value="Submit">
-  <input type=reset value=Reset>
-</form>
+        <br><p><input type=checkbox name=finalagree required id=agree><label for=agree>I agree to all <a href="tandc.html">terms and conditions</a> of the AVENGERS initiative and obliged to follow it irrespective of its frequent updations.</label></p>
+        <br><input type="submit" value="Submit" class=sbutton>
+        <input type=reset value=Reset class=sbutton>
+    </form>
+  </div>
+</section>
 <br><br>
 <a href="index.html" class=button><< Go back</a>
 <br><br><br><br><br><br>

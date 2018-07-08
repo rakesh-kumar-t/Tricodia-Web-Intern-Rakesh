@@ -1,0 +1,73 @@
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family:'Raleway', sans-serif;
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button:hover{
+  background-color: #1B5E20;
+}
+
+.sbutton:hover{
+  background-color: #1B5E20;
+}
+.sbutton {
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif  ;
+}
+#formhead {
+    background-color: #757575;
+    padding-top: 2;
+    padding-left: 10;
+    top: 5;
+    left: 0;
+    font-size: 23;
+    font-family: 'Agency FB';
+    color: white;
+   }
+
+#formbody{
+    background-color: white;
+    font-family:  'Lato', sans-serif !important;
+    font-size: 3;
+    border: 2px solid powderblue;
+    margin-left: 32%;
+    margin-right: 32%;
+
+}
+#inhead{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    font-size: 35;
+}
+#form{
+    padding-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    color:#616161;
+}
+#fname
+   {
+    font-size:18pt;
+    height:25px;
+    width:250px;
+   }
