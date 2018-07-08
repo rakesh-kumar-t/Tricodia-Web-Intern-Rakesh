@@ -19,6 +19,7 @@
 	border:0px solid grey;
 	float:center;
 	font-family: Verdana;
+	font-weight:bold;
 	display:inline-block;
 	}
 ul{
@@ -94,7 +95,7 @@ li a:hover, .dropdown:hover .dropbtn{
 h3.sp
 {
 	font-family:Verdana;
-	font-weight:bold;
+	font-weight:lighter;
 	color:#000000;
 	font-size:19px;
 }
@@ -133,19 +134,22 @@ h4{
 .containerimg:hover .textpos{
 	opacity:1;
 }
-.row{
-	padding:95px;
-	width:100%;
+*{
+	box-sizing:border-box;
+}
+.column{
+	width:50%;
 	height:600px;
-}
-.col1{
+	padding:50px;
+	padding-left:80px;
 	float:left;
-	width:50%;
+	position:relative;
 }
-.col2{
-	float:left;
-	width:50%;
+.row:after{
+	display:table;
+	clear:both;
 }
+
 
 p.c1
 {
@@ -170,18 +174,27 @@ b.c2
 	font-weight:lighter;
 	font-size:18px;
 }
+.image1{
+	opacity:1;
+	border:1px solid grey;
+	transition:.5s ease;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.column:hover .image1{
+	opacity:.7;
+	border-radius:70%;
+}
+.column:hover .coltext{
+	opacity:1;
+}
+.coltext{	
+	position:absolute;
+	top:50%;
+	bottom:50%;
+	left:120px;
+	opacity:0;
+	color:#232955;
+}
 
 
 
