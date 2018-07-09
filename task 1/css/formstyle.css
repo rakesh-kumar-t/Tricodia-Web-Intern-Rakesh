@@ -55,6 +55,17 @@
     margin-right: 32%;
 
 }
+
+#tandc{
+    background-color: white;
+    font-family:  'Lato', sans-serif !important;
+    font-size: 20;
+    color: #313131;
+    border: 2px solid powderblue;
+    margin-left: 6%;
+    margin-right: 6%;
+
+}
 #inhead{
     padding-bottom: 5%;
     padding-top: 5%;
@@ -79,4 +90,3 @@
     color:#424242;
     padding-bottom: 2%;
 }
-
