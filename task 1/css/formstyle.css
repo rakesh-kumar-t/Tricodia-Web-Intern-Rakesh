@@ -22,6 +22,7 @@
   font-family:'customrubik';
   -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+    border-radius: 20px;
 }
 .button:hover{
   background-color: #1B5E20;
@@ -45,6 +46,7 @@
   margin: 4px 2px;
   cursor: pointer;
   font-family: 'Raleway', sans-serif  ;
+  border-radius: 20px;
 }
 #formhead {
     background-color: #e0e0e0;
@@ -114,6 +116,13 @@ h1{
     font-weight: 400;
     color:#424242;
     padding-bottom: 2%;
+
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 #action{
