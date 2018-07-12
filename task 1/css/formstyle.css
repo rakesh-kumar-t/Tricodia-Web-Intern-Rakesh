@@ -19,7 +19,7 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  font-family:'Raleway', sans-serif;
+  font-family:'customrubik';
   -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
@@ -76,7 +76,7 @@
 
 }
 h1{
-    font-family: 'customrubik'
+    font-family: 'customrubik';
 }
 
 #tchead{
@@ -135,5 +135,9 @@ body{
     color: red;
 }
 #dpdown{
-    font-family: 'customrubik'
+    font-family: 'customrubik';
+}
+
+.header{
+    font-family: 'customrubik';
 }
