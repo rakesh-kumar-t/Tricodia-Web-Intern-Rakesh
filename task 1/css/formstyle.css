@@ -26,6 +26,7 @@
 }
 .button:hover{
   background-color: #1B5E20;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .sbutton:hover{
