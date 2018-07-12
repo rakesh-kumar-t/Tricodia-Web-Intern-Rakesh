@@ -65,6 +65,11 @@
     margin-right: 6%;
 
 }
+
+#tchead{
+    font-family: 'Roboto',sans-serif;
+    color:#616161;
+}
 #inhead{
     padding-bottom: 5%;
     padding-top: 5%;
