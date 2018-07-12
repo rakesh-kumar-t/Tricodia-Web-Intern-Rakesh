@@ -126,7 +126,7 @@ h1{
 }
 
 body{
-
+  
   background-repeat: no-repeat;
 }
 
@@ -135,9 +135,13 @@ body{
     color: red;
 }
 #dpdown{
-    font-family: 'customrubik';
+    font-family: 'customrubik'!important;
 }
 
 .header{
-    font-family: 'customrubik';
+    font-family: 'customrubik'!important;
+}
+
+.row{
+    font-family: 'customnunito';
 }
