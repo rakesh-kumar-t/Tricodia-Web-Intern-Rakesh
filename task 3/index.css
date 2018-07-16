@@ -1,0 +1,211 @@
+
+
+.header
+{
+	width:100%;
+	position:relative;
+	vertical-align:middle;
+	height:120px;
+	float:relative;
+	background-color:#e0e0e0;
+}
+.space{
+	width:100px;
+	display:inline-block;
+}
+.container
+{
+	padding-right:15px;
+	border:0px solid grey;
+	float:center;
+	font-family: Verdana;
+	font-weight:bold;
+	display:inline-block;
+	}
+ul{
+	background-color:#232955;
+	list-style-type:none;
+	overflow:hidden;
+	
+	
+}
+li{
+	width:25%;
+	float:right;
+}
+li a, .dropbtn {
+    background-color:#232955;
+    font-family:"Lucida Fax";
+    font-weight:bold;
+    color: white;
+    text-align:center;
+    display:inline-block;
+    padding: 14px 16px;
+    
+    text-decoration:none;
+}
+li.dropdown{
+	display:inline-block;
+}
+li a:hover, .dropdown:hover .dropbtn{
+	color:green;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+	background-color:white;
+	color:#000000;
+	border:.5px solid #cddccd;
+	font-family:"Lucida Fax";
+	font-weight:lighter;
+	text-decoration:none;
+	padding: 12px 16px;
+    text-align:left;
+    display:block;
+    
+}
+.dropdown-content a:hover{
+	color:green;
+	background-color:#ffffff;
+}
+.dropdown:hover .dropdown-content{
+	display:block;
+	background-color:#ffffff;
+}
+.containerimg{
+	position:relative;
+	
+
+}
+
+.textpos{
+	position:absolute;
+	top:150px;
+	left:180px;
+	opacity:.1;
+
+}
+h3.sp
+{
+	font-family:Verdana;
+	font-weight:lighter;
+	color:#000000;
+	font-size:19px;
+}
+h2{
+	font-family:Verdana;
+	color:white;
+	font-weight:bold;
+	font-size:35px;	
+}
+h3{
+	font-family:Verdana;;
+	color:white;
+	font-weight:bold;
+	font-size:30px;	
+}
+h4{
+	font-family:Verdana;;
+	color:white;
+	font-weight:lighter;
+	font-size:15px;	
+}
+
+
+.image{
+	opacity:1;
+	width:100%;
+	height:550px;
+	transition:.5s ease;
+}
+
+.containerimg:hover .image{
+	-webkit-filter:brightness(30%);
+	filter:brightness(30%);
+	
+}
+.containerimg:hover .textpos{
+	opacity:1;
+}
+*{
+	box-sizing:border-box;
+}
+.column{
+	width:50%;
+	height:600px;
+	padding:50px;
+	padding-left:80px;
+	float:left;
+	position:relative;
+}
+.row:after{
+	display:table;
+	clear:both;
+}
+
+
+p.c1
+{
+	font-family:Verdana;
+	color:#232955;
+	font-weight:bold;
+	font-size:26px;
+}
+b.c1
+{
+	font-family:Corbel;
+	color:#232955;
+	font-weight:bold;
+	font-size:19px;
+}
+
+
+b.c2
+{
+	font-family:Corbel;
+	color:#232955;
+	font-weight:lighter;
+	font-size:18px;
+}
+.image1{
+	opacity:1;
+	border:1px solid grey;
+	transition:.5s ease;
+}
+
+.column:hover .image1{
+	opacity:.7;
+	border-radius:70%;
+}
+.column:hover .coltext{
+	opacity:1;
+}
+.coltext{	
+	position:absolute;
+	top:50%;
+	bottom:50%;
+	left:120px;
+	opacity:0;
+	color:#232955;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
