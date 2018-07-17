@@ -1,4 +1,4 @@
-	.button
+.button
 	{
     background-color: #4CAF50;
     border: none;
@@ -15,7 +15,7 @@
 *{
 	box-sizing:border-box;
 }
-.acolumn{
+.column{
 	width:300px;
 	height:300px;
 	padding:50px;
@@ -23,34 +23,32 @@
 	float:left;
 	position:relative;
 }
-.arow:after{
+.row:after{
 	display:table;
 	clear:both;
 }
 
-.aimage{
+.image{
 	opacity:1;
 	border:1px solid grey;
 	transition:.5s ease;
 	border-radius:70%;
-	height: 250;
-	width: 250;
 }
-.acolumn:hover .aimage{
+.column:hover .image{
 	-webkit-filter:brightness(30%);
 	filter:brightness(30%);
 
-
+	
 }
-.acolumn:hover .atextpos{
+.column:hover .textpos{
 	opacity:1;
 }
-.acontainerimg{
+.containerimg{
 	position:relative;
-
+	
 
 }
-.atextpos{
+.textpos{
 	position:absolute;
 	top:50px;
 	left:87px;
@@ -61,5 +59,5 @@ h3{
 	font-family:Verdana;;
 	color:white;
 	font-weight:bold;
-	font-size:30px;
+	font-size:30px;	
 }
