@@ -1,4 +1,4 @@
-	.button 
+	.button
 	{
     background-color: #4CAF50;
     border: none;
@@ -15,7 +15,7 @@
 *{
 	box-sizing:border-box;
 }
-.column{
+.acolumn{
 	width:300px;
 	height:300px;
 	padding:50px;
@@ -23,32 +23,34 @@
 	float:left;
 	position:relative;
 }
-.row:after{
+.arow:after{
 	display:table;
 	clear:both;
 }
 
-.image{
+.aimage{
 	opacity:1;
 	border:1px solid grey;
 	transition:.5s ease;
 	border-radius:70%;
+	height: 250;
+	width: 250;
 }
-.column:hover .image{
+.acolumn:hover .aimage{
 	-webkit-filter:brightness(30%);
 	filter:brightness(30%);
 
-	
-}
-.column:hover .textpos{
-	opacity:1;
-}
-.containerimg{
-	position:relative;
-	
 
 }
-.textpos{
+.acolumn:hover .atextpos{
+	opacity:1;
+}
+.acontainerimg{
+	position:relative;
+
+
+}
+.atextpos{
 	position:absolute;
 	top:50px;
 	left:87px;
@@ -59,5 +61,5 @@ h3{
 	font-family:Verdana;;
 	color:white;
 	font-weight:bold;
-	font-size:30px;	
+	font-size:30px;
 }
