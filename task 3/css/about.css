@@ -1,16 +1,3 @@
-.button
-	{
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 6px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
 
 *{
 	box-sizing:border-box;
@@ -38,14 +25,14 @@
 	-webkit-filter:brightness(30%);
 	filter:brightness(30%);
 
-	
+
 }
 .column:hover .textpos{
 	opacity:1;
 }
 .containerimg{
 	position:relative;
-	
+
 
 }
 .textpos{
@@ -59,5 +46,5 @@ h3{
 	font-family:Verdana;;
 	color:white;
 	font-weight:bold;
-	font-size:30px;	
+	font-size:30px;
 }
