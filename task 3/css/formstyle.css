@@ -35,8 +35,7 @@
     font-family: 'Agency FB';
     color: black;
    }
-#formbody{
-    background-color: white;
+.well.well-sm{
     font-family: 'customnunito';
     font-size: 3;
     border: 2px solid powderblue;
@@ -44,7 +43,7 @@
     margin-right: 32%;
 
 }
-#formbody1{
+.well.well-lg{
     background-color: white;
     font-family: 'customnunito';
     font-size: 3;
@@ -63,8 +62,7 @@
     padding-bottom: 5;
 }
 
-#tandc{
-    background-color: white;
+.well{
     font-family:  'customnunito';
     font-size: 20;
     color: #313131;
