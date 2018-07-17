@@ -68,12 +68,17 @@
       </div>
       <b>
         <font size=3>
+      <div class=col-xs-10>
         <label for=fname>FULL NAME:</label> <br>
-        <input type="text" id=fname name="fname" required ><br><br>
+        <input type="text" class=form-control name="fname" required placeholder="Enter your fullname" ><br>
+      </div>
+      <div class=col-xs-10>
         <label for=sname>SUPERHERO NAME:</label><br>
-        <input tye=text id=sname name=snmame required><br><br>
+        <input tye=text class=form-control name=snmame required placeholder="Enter SUPERHERO NAME of your wish "><br>
+      </div>
+      <div class=form-group>
         <label for=country>COUNTRY &nbsp;:</label>
-                          <select id=country name=country>
+                          <select class=form-control id=country name=country>
                           <option value="Argentina" >Argentina</option><br><br>
                           <option value="Australia" >Australia</option><br>
                           <option value="Austria" >Austria</option><br>
@@ -107,9 +112,15 @@
                           <option value="Switzerland" >Switzerland</option><br>
 </select><br><br>
 
-  GENDER:<br><label><input type=radio name=gender checked required >Male</label><br>
-            <label><input name=gender type=radio required >Female</label><br>
-            <label><input name=gender type=radio required >Transgender</label><br><br>
+  GENDER:<br><div class="radio">
+            <label><input type=radio name=gender checked required >Male</label>
+          </div>
+          <div class="radio">
+            <label><input name=gender type=radio required >Female</label>
+          </div>
+          <div class="radio">
+            <label><input name=gender type=radio required >Transgender</label>
+          </div><br>
   SKILLS/ABILITES:(check all that apply)<br>
                     <input type=checkbox id=flying name=field><label for=flying>FLYING</label><br>
                     <input type=checkbox id=swimming name=field ><label for=swimming>SWIMMING</label><br>
@@ -119,7 +130,10 @@
                     <input type=checkbox id=firepower name=field ><label for=firepower>FIREPOWER</label><br>
                     <input type=checkbox id=mpower name=field ><label for=mpower>MYSTIC POWER</label><br>
                     <input type=checkbox id=others name=field><label for=others1>OTHERS(specify)</label><br>
-                    <br><textarea rows="4" cols="50" name=otherabilities id=others1></textarea><br><br>
+                    <br>
+                    <div class=form-group>
+                      <textarea  class=form-control rows="4" cols="50" name=otherabilities id=others1 placeholder="Other skills you posess"></textarea>
+                    </div><br><br>
     FAVORITE AVENGER:<select name="superhero" >
                 <option value="HULK" selected>HULK</option>
                 <option value="IRON MAN">IRON MAN</option>
