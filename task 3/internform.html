@@ -54,7 +54,7 @@
               <h1>AVENGERS FACILITY INTERSHIPS</h1>
               <hr>
             </div>
-                     
+
 <section  class="well well-sm" align=left>
       <div id=form align=center>
           <form align=left action="action_page1.html" method="get">
@@ -64,78 +64,123 @@
               </div>
                 <b>
                   <font size=3>
-                    <label for=fname>FULL NAME:<br> <input id=fname type="text" name="fname" required ></label><br><br>
-                    <label for=otherabilities>ADDRESS:<br>
-                    <textarea id=otherabilities rows="4" cols="23" name=otherabilities></textarea></label><br><br>
-                    <label for=country>COUNTRY &nbsp;&nbsp;:&emsp;<select id=country name=country>
-                          <option value="Argentina" >Argentina</option><br><br>
-                          <option value="Australia" >Australia</option><br>
-                          <option value="Austria" >Austria</option><br>
-                          <option value="Bangladesh" >Bangladesh</option><br>
-                          <option value="Brazil" >Brazil</option><br>
-                          <option value="Canada" >Canada</option><br>
-                          <option value="China" >China</option><br>
-                          <option value="Denmark" >Denmark</option><br>
-                          <option value="Egypt" >Egypt</option><br>
-                          <option value="Ethyopia" >Ethyopia</option><br>
-                          <option value="Equador" >Equador</option><br>
-                          <option value="Finland" >Finland</option><br>
-                          <option value="Germany" >Germany</option><br>
-                          <option value="Hungary" >Hungary</option><br>
-                          <option value="Iceland" >Iceland</option><br>
-                          <option value="Ireland" >Ireland</option><br>
-                          <option value="India" selected>India</option><br>
-                          <option value="Japan" >Japan</option><br>
-                          <option value="Jordan" >Jordan</option><br>
-                          <option value="Kazakisthan" >Kazakisthan</option><br>
-                          <option value="Korea" >Korea</option><br>
-                          <option value="Malaysia" >Malaysia</option><br>
-                          <option value="Morocco" >Morocco</option><br>
-                          <option value="Netherlands" >Netherlands</option><br>
-                          <option value="Nigeria" >Nigeria</option><br>
-                          <option value="Pakistan" >Pakistan</option><br>
-                          <option value="Portugal" >Portugal</option><br>
-                          <option value="Russia">Russia</option><br>
-                          <option value="Singapore" >Singapore</option><br>
-                          <option value="Spain" >Spain</option><br>
-                          <option value="Switzerland" >Switzerland</option><br>
-                        </select></label><br><br>
-                    GENDER:<br>
-                        <label for=male><input type=radio id=male name=gender checked required >Male</label><br>
-                        <label for=female><input name=gender id=female type=radio required >Female</label><br>
-                        <label for=trans><input name=gender id=trans type=radio required >Transgender</label><br><br>
-                    BRANCH OF STUDY<br><br>
-                        <label for=aero><input id=aero type=Radio name=field>AERONAUTICAL</label><br>
+                    <div class=col-xs-10>
+                      <label for=fname>FULL NAME:</label> <br>
+                      <input type="text" id=fname class=form-control name="fname" required placeholder="Enter your fullname"><br>
+                    </div>
+                  <div class=col-xs-10>
+                    <label for=otherabilities>YOUR RESIDENTIAL ADDRESS:</label><br>
+                      <textarea  class=form-control rows="4" cols="50" name=otherabilities id=otherabilities placeholder="Enter your resident address" required>
+                    </textarea><br>
+                  </div>
+                  <div class=form-group>
+                                    <label for=country>COUNTRY &nbsp;:</label>
+                                    <select class=form-control name=country>
+                                    <option value="Argentina" >Argentina</option><br><br>
+                                    <option value="Australia" >Australia</option><br>
+                                    <option value="Austria" >Austria</option><br>
+                                    <option value="Bangladesh" >Bangladesh</option><br>
+                                    <option value="Brazil" >Brazil</option><br>
+                                    <option value="Canada" >Canada</option><br>
+                                    <option value="China" >China</option><br>
+                                    <option value="Denmark" >Denmark</option><br>
+                                    <option value="Egypt" >Egypt</option><br>
+                                    <option value="Ethyopia" >Ethyopia</option><br>
+                                    <option value="Equador" >Equador</option><br>
+                                    <option value="Finland" >Finland</option><br>
+                                    <option value="Germany" >Germany</option><br>
+                                    <option value="Hungary" >Hungary</option><br>
+                                    <option value="Iceland" >Iceland</option><br>
+                                    <option value="Ireland" >Ireland</option><br>
+                                    <option value="India" selected>India</option><br>
+                                    <option value="Japan" >Japan</option><br>
+                                    <option value="Jordan" >Jordan</option><br>
+                                    <option value="Kazakisthan" >Kazakisthan</option><br>
+                                    <option value="Korea" >Korea</option><br>
+                                    <option value="Malaysia" >Malaysia</option><br>
+                                    <option value="Morocco" >Morocco</option><br>
+                                    <option value="Netherlands" >Netherlands</option><br>
+                                    <option value="Nigeria" >Nigeria</option><br>
+                                    <option value="Pakistan" >Pakistan</option><br>
+                                    <option value="Portugal" >Portugal</option><br>
+                                    <option value="Russia">Russia</option><br>
+                                    <option value="Singapore" >Singapore</option><br>
+                                    <option value="Spain" >Spain</option><br>
+                                    <option value="Switzerland" >Switzerland</option><br>
+                                    </select><br>
+                  </div>
+                  <div class=form-group>
+                      GENDER:<br>
+                      <div class="radio">
+                        <label><input type=radio name=gender checked required >Male</label>
+                      </div>
+                      <div class="radio">
+                        <label><input name=gender type=radio required >Female</label>
+                      </div>
+                      <div class="radio">
+                        <label><input name=gender type=radio required >Transgender</label>
+                      </div>
+                  </div>
+                  <div class=form-group>
+                        BRANCH OF STUDY<br>
+                        <div class="radio">
+                        <label for=aero>
+                          <input id=aero type=Radio name=field>AERONAUTICAL</label><br>
+                        </div>
+                        <div class="radio">
                         <label for=bio><input id=bio type=Radio name=field >BIOMEDICAL</label><br>
+                        </div>
+                        <div class="radio">
                         <label for=comp><input id=comp type=Radio name=field>COMPUTER SCIENCE</label><br>
+                        </div>
+                        <div class="radio">
                         <label for=elec><input id=elec type=Radio name=field >ELECRONICS/ELECTRICAL</label><br>
+                        </div>
+                        <div class="radio">
                         <label for=mech><input id=mech type=Radio name=field >MECHANICAL/MECHATRONICS</label><br>
+                        </div>
+                        <div class="radio">
                         <label for=instru><input id=instru type=Radio name=field >INSTRUMENTAION</label><br>
+                        </div>
+                        <div class="radio">
                         <label for=civil><input id=civil type=Radio name=field >CIVIL/CONSTRUCTION</label><br>
+                        </div>
+                        <div class="radio">
                         <label for=others><input id=others type=Radio name=field>OTHERS(specify)<br>
-                        <br><textarea rows="4" cols="50" name=otherabilities id=others></textarea></label><br><br>
-                    FAVORITE AVENGER:<select name="superhero" >
-                          <option value="HULK" selected>HULK</option>
-                          <option value="IRON MAN">IRON MAN</option>
-                          <option value="CAPTAIN AMERICA">CAPTAIN AMERICA</option>
-                          <option value="THOR">THOR</option>
-                          <option value="SPIDER MAN">SPIDER MAN</option>
-                          <option value="ANT MAN">ANT MAN</option>
-                          <option value="BLACK PANTHER">BLACK PANTHER</option>
-                          <option value="VISION">VISION</option>
-                          <option value="DR.STRANGE">DR.STRANGE</option>
-                          <option value="NICK FURY">NICK FURY</option>
-                          </select><br><br>
-                    DURATION OF INTERNSHIP:<SELECT name=duration>
+                        <br>
+                        <textarea class=form-control rows="4" cols="50" name=otherabilities id=others>
+                        </textarea></label>
+                      </div><br>
+                  </div>
+                  <div class=form-group>
+                            FAVORITE AVENGER:<select name="superhero" class=form-control>
+                            <option value="HULK" selected>HULK</option>
+                            <option value="IRON MAN">IRON MAN</option>
+                            <option value="CAPTAIN AMERICA">CAPTAIN AMERICA</option>
+                            <option value="THOR">THOR</option>
+                            <option value="SPIDER MAN">SPIDER MAN</option>
+                            <option value="ANT MAN">ANT MAN</option>
+                            <option value="BLACK PANTHER">BLACK PANTHER</option>
+                            <option value="VISION">VISION</option>
+                            <option value="DR.STRANGE">DR.STRANGE</option>
+                            <option value="NICK FURY">NICK FURY</option>
+                          </select><br>
+                  </div>
+                  <div class=form-group>
+                        DURATION OF INTERNSHIP:
+                        <SELECT name=duration class=form-control>
                         <option value=4>4 DAYS</option>
                         <option value=7>7 DAYS</option>
                         <option value=30>30 DAYS</option>
                         </select>
+                  </div>
                         <br><p>
+                  <div class=form-group>
                         <label for=agree><input id=agree type=checkbox name=finalagree required>I agree to all <a href="tandc.html">terms and conditions</a> of the AVENGERS initiative and obliged to follow it irrespective of its frequent updations.</p></label>
                         <br>
                         <input type="submit" value="Submit" class="btn btn-success">
                         <input type=reset value=Reset class="btn btn-danger">
+                  </div>
             </form>
 </section>
 
