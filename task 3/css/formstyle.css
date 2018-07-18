@@ -7,7 +7,20 @@
     src: url('fonts/nunito.ttf');
 
 }
+@font-face {
+    font-family: "customroboto";
+    src: url('fonts/Roboto.ttf');
 
+}
+input,textarea
+{
+  font-family: 'customroboto';
+}
+.form-group
+{
+  width:80%;
+  padding-left: 3%;
+}
 .btn.btn-success,.btn.btn-danger
 {
     margin: 30px 30px;
@@ -35,6 +48,10 @@
     font-family: 'Agency FB';
     color: black;
    }
+textarea
+{
+  resize: none;
+}
 .well.well-sm{
     font-family: 'customnunito';
     font-size: 3;

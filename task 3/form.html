@@ -68,6 +68,7 @@
       </div>
       <b>
         <font size=3>
+
       <div class=col-xs-10>
         <label for=fname>FULL NAME:</label> <br>
         <input type="text" class=form-control name="fname" required placeholder="Enter your fullname" ><br>
@@ -110,9 +111,11 @@
                           <option value="Singapore" >Singapore</option><br>
                           <option value="Spain" >Spain</option><br>
                           <option value="Switzerland" >Switzerland</option><br>
-</select><br><br>
-
-  GENDER:<br><div class="radio">
+                        </select><br>
+      </div>
+      <div class=form-group>
+          GENDER:<br>
+          <div class="radio">
             <label><input type=radio name=gender checked required >Male</label>
           </div>
           <div class="radio">
@@ -120,8 +123,10 @@
           </div>
           <div class="radio">
             <label><input name=gender type=radio required >Transgender</label>
-          </div><br>
-  SKILLS/ABILITES:(check all that apply)<br>
+          </div>
+      </div>
+      <div class=form-group>
+                    SKILLS/ABILITES:(check all that apply)<br>
                     <input type=checkbox id=flying name=field><label for=flying>FLYING</label><br>
                     <input type=checkbox id=swimming name=field ><label for=swimming>SWIMMING</label><br>
                     <input type=checkbox id="inskill" name=field><label for=inskill>INSTANT KILL</label><br>
@@ -131,10 +136,10 @@
                     <input type=checkbox id=mpower name=field ><label for=mpower>MYSTIC POWER</label><br>
                     <input type=checkbox id=others name=field><label for=others1>OTHERS(specify)</label><br>
                     <br>
-                    <div class=form-group>
-                      <textarea  class=form-control rows="4" cols="50" name=otherabilities id=others1 placeholder="Other skills you posess"></textarea>
-                    </div><br><br>
-    FAVORITE AVENGER:<select name="superhero" >
+                      <textarea  class=form-control rows="4" cols="50" name=otherabilities id=others1 placeholder="Other skills you posess" ></textarea>
+      </div><br>
+      <div class=form-group>
+        FAVORITE AVENGER:<select name="superhero" class=form-control>
                 <option value="HULK" selected>HULK</option>
                 <option value="IRON MAN">IRON MAN</option>
                 <option value="CAPTAIN AMERICA">CAPTAIN AMERICA</option>
@@ -146,9 +151,15 @@
                 <option value="DR.STRANGE">DR.STRANGE</option>
                 <option value="NICK FURY">NICK FURY</option>
               </select><br>
-        <br><p><input type=checkbox name=finalagree required id=agree><label for=agree>I agree to all <a href="tandc.html">terms and conditions</a> of the AVENGERS initiative and obliged to follow it irrespective of its frequent updations.</label></p>
+      </div>
+      <div class=form-group>
+        <br><p><label for=agree><input type=checkbox name=finalagree required id=agree>
+                I agree to all <a href="tandc.html">terms and conditions</a> of the AVENGERS initiative and obliged to follow it irrespective of its frequent updations.</label></p>
+      </div>
+      <div class=form-group>
         <br><input type="submit" value="Submit" class="btn btn-success">
         <input type=reset value=Reset class="btn btn-danger">
+      </div>
     </form>
   </div>
 </section>
