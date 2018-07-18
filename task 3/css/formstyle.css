@@ -45,10 +45,10 @@
     background-color: #e0e0e0;
     padding-top: 2;
     padding-left: 10;
-
     font-size: 23;
     font-family: 'Agency FB';
     color: black;
+    border-radius: 10px;
    }
 textarea
 {
@@ -60,6 +60,7 @@ textarea
     border: 2px solid powderblue;
     margin-left: 32%;
     margin-right: 32%;
+    border-radius: 15px;
 
 }
 .well.well-lg{
