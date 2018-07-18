@@ -22,29 +22,24 @@
 	border-radius:70%;
 }
 .column:hover .image{
-	-webkit-filter:brightness(30%);
-	filter:brightness(30%);
-
-
+	opacity:.2;
 }
 .column:hover .textpos{
 	opacity:1;
 }
 .containerimg{
 	position:relative;
-
-
 }
 .textpos{
 	position:absolute;
-	top:50px;
-	left:87px;
-	opacity:.1;
+	top:70px;
+	left:50px;
+	opacity:0;
 
 }
-h3{
+.textpos h3{
 	font-family:Verdana;;
-	color:white;
+	color:black;
 	font-weight:bold;
 	font-size:30px;
 }
