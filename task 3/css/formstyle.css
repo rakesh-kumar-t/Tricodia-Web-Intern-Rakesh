@@ -12,7 +12,7 @@
     src: url('fonts/Roboto.ttf');
 
 }
-input,textarea
+.form-control
 {
   font-family: 'customroboto';
 }
@@ -21,6 +21,8 @@ input,textarea
   width:80%;
   padding-left: 3%;
 }
+
+
 .btn.btn-success,.btn.btn-danger
 {
     margin: 30px 30px;
@@ -99,22 +101,14 @@ h1{
     font-family:'customnunito';
     color:#616161;
 }
-#fname,#sname,#email
+.form-control
    {
     font-size:13pt;
-    height:25px;
-    width:250px;
-    font-family:'Lato', sans-serif;
+
+
    }
 
-#institution{
-    width:360px;
-}
 
-#address,#otherabilities{
-    resize: none;
-    font-size: 13pt;
-}
 
 
 #footer{
