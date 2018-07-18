@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="images/Avengers-logo.ico" type="image/ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body bgcolor="#e0e0e0">
+<body bgcolor="#e0e0e0" id=myPage>
 
   <nav class="navbar-inverse navbar-fixed-top">
   	<div class="container-fluid">
@@ -186,12 +186,36 @@
   </div>
 </section>
 </div>
-<div style="background-color:#bdbdbd" align=center id=footer>
+
+<div style="background-color:#212121" align=center id=footer>
+  <hr>
+  <footer class="text-center">
+    <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a><br>
     <font size=4>
-<hr>
-  2018 MARVEL Avengers Initiative<br>
-  All rights reserved.
+
+  2018 MARVEL Avengers Initiative&reg;<br>
+  &copy;All rights reserved.
 </div>
+</footer>
+<script>
+$(document).ready(function(){
+
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+})
+</script>
 
 </body>
 </html>

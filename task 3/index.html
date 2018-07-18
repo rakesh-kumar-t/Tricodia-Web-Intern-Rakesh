@@ -13,7 +13,7 @@
 	<title>The Avengers Initiative</title>
 </head>
 
-<body>
+<body id=myPage>
 
 
 <nav class="navbar-inverse navbar-fixed-top">
@@ -124,8 +124,12 @@
 <hr>
 
 
-<div style="background-color:#bdbdbd;bottom:0px;" align=center id=footer>
-    <div class="row">
+<div style="background-color:#212121;bottom:0px;" align=center id=footer>
+	<footer class="text-center">
+		<a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+			<span class="glyphicon glyphicon-chevron-up"></span>
+		</a><br><br>
+		<div class="row">
 		<img src="images/1.png" width="35" height="35">
 		<div class="container"><br/>
 			<p>Available from 9 am-8 pm</p>
@@ -144,9 +148,31 @@
 
 	<font size=4>
 
-  <p>2018 MARVEL Avengers Initiative&reg;<br>
-  &copy;&nbsp;All rights reserved.</p>
 
+
+				<font size=4>
+
+			2018 MARVEL Avengers Initiative&reg;<br>
+			&copy;All rights reserved.
+		</div>
+		</footer>
+		<script>
+		$(document).ready(function(){
+
+			$(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+						if (this.hash !== "") {
+							event.preventDefault();
+							var hash = this.hash;
+							$('html, body').animate({
+								scrollTop: $(hash).offset().top
+							}, 900, function(){
+						window.location.hash = hash;
+					});
+				}
+			});
+		})
+		</script>
 </div>
 
 
