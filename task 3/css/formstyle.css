@@ -105,12 +105,7 @@ h1{
 .form-control
    {
     font-size:13pt;
-
-
-   }
-
-
-
+  }
 
 footer{
     font-family: 'Lato', sans-serif !important;
@@ -129,10 +124,6 @@ footer{
 
 }
 
-body{
-
-  background-repeat: no-repeat;
-}
 
 #imp{
     font-family: sans-serif;
