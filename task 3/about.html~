@@ -1,0 +1,374 @@
+<html>
+<head>
+
+
+  <title>Creators </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="shortcut icon" href="images/Avengers-logo.ico" type="image/ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <style>
+
+.container-fluid_nav {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  height:20px;
+}
+}
+.navbar-brand img{
+	position:fixed;
+	top:8px;
+	left:5px;
+	height: 80px;
+	width: 180px;
+
+}
+
+.space{
+	width:100px;
+	display:inline-block;
+}
+
+.dropdown{
+	font-size:20px;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+
+.dropdown-menu {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu{
+	display: block;
+	color:black;
+	padding:20px;
+	border-radius: 10px;
+	background-color:white;
+}
+
+.dropdown-menu a {
+	background-color:white;
+	color:black;
+	font-size: 20px;
+	font-family:"Lucida Fax";
+	font-weight:lighter;
+	padding: 12px 16px;
+    text-decoration: none;
+	text-align:center;
+    display:block;
+}
+
+.dropdown-menu a:hover{
+	color:white;
+	text-decoration: none;
+	background-color:black;
+}
+
+  body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-family:"Bree Serif";
+      font-size:40px;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      font-family:Courier;
+      line-height: 1.375em;
+      color: #303030;
+      margin-bottom: 30px;
+  }  
+
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+.bg-blue {
+      background-color:#EDC3BA;
+  }
+.text-ctr
+
+{
+text-align:center;
+}
+  
+  
+ .imagegal {
+      padding: 0px 0px 15px 0px;
+      border: none;
+      border-radius: 0;
+      background-color:#ffffff;
+  }
+ .imagegal img {
+      width:100%;
+      padding:15px;
+      margin-bottom: 10px;
+  }
+
+
+  </style>
+</head>
+<body>
+
+
+
+
+
+
+<div class="container-fluid_nav">
+<div align=left>
+      <nav class="navbar-inverse navbar-fixed-top">
+        <div class="container-fluid_nav">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/avengersabout.png" height=150 width=600>
+            </a>
+          </div>
+
+          <div class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown"
+              href="#">RECRUITMENT<span class="glyphicon glyphicon-industry"></span></a>
+              <ul class="dropdown-menu">
+              <a href="form.html">Apply Now</a>
+              <a href="appstatus.html">Check application status</a>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <span class="glyphicon glyphicon-intern"></span>INTERNSHIPS</a>
+              <ul class="dropdown-menu">
+                <a href="internform.html">Apply</a>
+                <a href="tandc.html">Terms & Conditions</a>
+              </ul>
+
+            </li>
+
+            <li class="dropdown">
+              <a href="industrialvisit.html"><span class="glyphicon glyphicon-industry"></span>INDUSTRIAL VISITS</a>
+            </li>
+
+            <li class="dropdown active">
+              <a href="About.html"><span class="glyphicon glyphicon-credit"></span>CREATORS</a>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+</div>
+
+<br><br><br><br><br>
+
+
+<div id="about" class="container-fluid text-ctr">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>AVENGERS - INITIATIVE</h2><br>
+     <h4><strong>AVENGERS INITIATIVE</strong> is a secret project created by S.H.I.E.L.D. to create the Avengers,collection of the most ableindividuals to defend Earth from imminent global threats.hese individuals functioning as a response team to said threats which are too great for the forces of mankind to handle.The Initiative was scrapped by the World Security Council after the alien incursion in New Mexico in favor of a weapons development program known as Phase 2. It was eventually reactivated in 2012 during the Chitauri Invasion.Avengers is neither a division of government or any of the private agencies throughout the world.We are just a group of individuals.
+</h4>
+      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+    </div>
+    <div class="col-sm-4">
+      <img src="images/Avengers-logo.png" class="logo" width="300" height="350" align="justify">
+          </div>
+    </div>
+  </div>
+
+
+<br><br><br>
+
+<div class="container-fluid text-center bg-grey">
+  <h2>AVENGERS-TEAM</h2><br>
+  <h4 style="font-weight:strong;">Know Who Are WE</h4>
+  <div class="row">
+    <div class="col-sm-4 col-xs-12">
+<div class="panel panel-default">
+      <div class="imagegal">
+        <img src="images/Nick_Fury.jpg" alt="Nick Fury" width="100" height="200">
+        <p><strong>Nick Fury.jpg</strong></p>
+        <p>Colonel Nicholas "Nick" Joseph Fury was a former officer of the United States Army and an espionage veteran of the CIA during the Cold War.</p>
+      </div>
+    </div>
+</div>
+    <div class="col-sm-4 col-xs-12">
+<div class="panel panel-default">
+      <div class="imagegal">
+        <img src="images/TonyStark.jpg" alt="Tony Stark" width="300" height="200">
+        <p><strong>Tony Stark</strong></p>
+        <p>Anthony Edward "Tony" Stark is a genius, billionaire, philanthropist and the former head of Stark Industries.<br>
+<br></p>
+      </div>
+    </div>
+</div>
+    <div class="col-sm-4 col-xs-12">
+<div class="panel panel-default">
+      <div class="imagegal">
+        <img src="images/captainamerica.jpg" alt="Captain America" width="300" height="200">
+        <p><strong>Captain America</strong></p>
+        <p>Recipient of the Super-Soldier serum, World War II hero Steve Rogers fights for American ideals as one of the world’s mightiest heroes and the leader.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  
+ <div class="container-fluid bg-grey text-center">
+  <div class="row">
+<div class="col-sm-4 col-xs-12">
+<div class="panel panel-default">
+      <div class="imagegal">
+        <img src="images/Bruce_Banner.jpg" alt="Bruce Banner" width="200" height="200">
+        <p><strong>Bruce Banner</strong></p>
+        <p>Dr. Robert Bruce Banner is a genius scientist who, due to exposure to gamma radiation, transforms into the Hulk; whenever he is stressed,seriously injured.</p>
+      </div>
+</div>
+ </div>
+<div class="col-sm-4 col-xs-12">
+<div class="panel panel-default">
+      <div class="imagegal">
+        <img src="images/thor.jpg" alt="Thor" width="200" height="200">
+        <p><strong>Thor</strong></p>
+        <p>Thor Odinson is the current king of Asgard, a founding member of the Avengers, and the God of Thunder.<br><br></p>
+      </div>
+    </div>
+</div>
+    <div class="col-sm-4 col-xs-12">
+<div class="panel panel-default">
+      <div class="imagegal">
+        <img src="images/peter parker.jpg" alt="Peter Parker" width="200" height="200">
+        <p><strong>Peter Parker</strong></p>
+        <p>Peter Benjamin Parker was a high school student and a superhero with spider-like abilities, fighting crime as his alter ego Spider-Man.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  
+ <div class="container-fluid bg-grey text-center">
+ 
+  <div class="row">
+   <div class="col-sm-4 col-xs-12">
+<div class="panel panel-default">
+      <div class="imagegal">
+        <img src="images/bucky barnes.jpg" alt="Bucky Barnes" width="300" height="200">
+        <p><strong>Bucky Barnes</strong></p>
+        <p>Sergeant James Buchanan "Bucky" Barnes was a former soldier of the 107th Infantry Regiment and the childhood best friend of Steve Rogers.</p>
+      </div>
+    </div>
+</div>
+<div class="col-sm-4 col-xs-12">
+<div class="panel panel-default">
+      <div class="imagegal">
+        <img src="images/scottlang.jpg" alt="" width="300" height="200">
+        <p><strong>Scott Lang</strong></p>
+        <p>Scott Edward Harris Lang is a former criminal who was convinced by Pym Technologies CEO Hank Pym to take up his mantle as the new Ant-Man.</p>
+      </div>
+    </div>
+</div>
+  <div class="col-sm-4 col-xs-12">
+<div class="panel panel-default">
+      <div class="imagegal">
+        <img src="images/romanoff.jpg" alt="Romanoff" width="300" height="200">
+        <p><strong>Romanoff</strong></p>
+        <p>Despite super spy Natasha Romanoff’s checkered past, she’s become one of S.H.I.E.L.D.’s most deadly assassins and a frequent member of the Avengers.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  
+ 
+ <div class="container-fluid text-center bg-grey">
+
+  <div class="row">
+<div class="col-sm-4 col-xs-12">
+<div class="panel panel-default">
+      <div class="imagegal">
+        <img src="images/hawkeye.jpg" alt="Hawkeye" width="100" height="200">
+        <p><strong>Hawkeye</strong></p>
+        <p>Clinton Francis "Clint" Barton, better known as Hawkeye, is a former special agent of S.H.I.E.L.D., where he worked under the supervision of Phil.</p>
+      </div>
+    </div>
+</div>
+<div class="col-sm-4 col-xs-12">
+<div class="panel panel-default">
+      <div class="imagegal">
+        <img src="images/drstrange.jpg" alt="Dr Starange" width="300" height="200">
+        <p><strong>Doctor Strange</strong></p>
+        <p>Doctor Strange is a 2016 superhero film, based on the Marvel Comics superhero of the same name.<br><br></p>
+      </div>
+    </div>
+</div>
+<div class="col-sm-4 col-xs-12">
+<div class="panel panel-default">
+      <div class="imagegal">
+        <img src="images/panther.jpg" alt="Black Panther" width="300" height="200">
+        <p><strong>King T'Challa</strong></p>
+        <p>T’Challa is the king of the secretive and highly advanced African nation of Wakanda as well as the powerful warrior known as the Black Panther.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+ 
+
+<div class="container-fluid text-center" style="background-color:#B4ACAB;">
+<div class="row">
+<div class="col-sm-5">
+
+<h4>Contact Us...Replay within minutes...!</h4>
+<p><span class="glyphicon glyphicon-map-marker"></span>Avengers Avenue,Scotland</p>
+<p><span class="glyphicon glyphicon-phone"></span> +1234 5792</p>
+<p><span class="glyphicon glyphicon-envelope"></span> Avengers@starktown.com</p>
+</div>
+<div class="col-sm-7">
+
+
+<div class="row">
+<div class="col-sm-6 form-group">
+<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+</div>
+<div class="col-sm-6 form-group">
+<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+</div>
+</div>
+<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+<div class="row">
+<div class="col-sm-12 form-group">
+<button class="btn btn-default pull-right" type="submit">Send</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</body>
+</html>
+
