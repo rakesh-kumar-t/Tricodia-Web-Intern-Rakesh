@@ -12,6 +12,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <style>
+
+.container-fluid_nav {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  height:20px;
+}
+}
+.navbar-brand img{
+	position:fixed;
+	top:8px;
+	left:5px;
+	height: 80px;
+	width: 180px;
+
+}
+
+.space{
+	width:100px;
+	display:inline-block;
+}
+
+.dropdown{
+	font-size:20px;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+
+.dropdown-menu {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu{
+	display: block;
+	color:black;
+	padding:20px;
+	border-radius: 10px;
+	background-color:white;
+}
+
+.dropdown-menu a {
+	background-color:white;
+	color:black;
+	font-size: 20px;
+	font-family:"Lucida Fax";
+	font-weight:lighter;
+	padding: 12px 16px;
+    text-decoration: none;
+	text-align:center;
+    display:block;
+}
+
+.dropdown-menu a:hover{
+	color:white;
+	text-decoration: none;
+	background-color:black;
+}
+
   body {
       font: 400 15px Lato, sans-serif;
       line-height: 1.8;
@@ -27,7 +91,7 @@
   }
   h4 {
       font-size: 19px;
-      font-family:Verdana;
+      font-family:Courier;
       line-height: 1.375em;
       color: #303030;
       margin-bottom: 30px;
@@ -61,6 +125,49 @@ text-align:center;
       margin-bottom: 10px;
   }
 
+.slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
 
   </style>
 </head>
@@ -71,11 +178,10 @@ text-align:center;
 
 
 
-
-    <br><hr color=dark>
-    <br><br><div align=left>
+<div class="container-fluid_nav">
+<div align=left>
       <nav class="navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
+        <div class="container-fluid_nav">
           <div class="navbar-header">
             <a class="navbar-brand" href="index.html">
               <img src="images/avengersabout.png" height=150 width=600>
@@ -113,13 +219,13 @@ text-align:center;
           </ul>
           </div>
         </div>
-      </nav><br>
+      </nav>
 
 
 
+</div>
 
-
-
+<br><br><br><br><br>
 
 
 <div id="about" class="container-fluid text-ctr">
@@ -135,10 +241,9 @@ text-align:center;
           </div>
     </div>
   </div>
-</div>
 
 
-
+<br><br><br>
 
 <div class="container-fluid text-center bg-grey">
   <h2>AVENGERS-TEAM</h2><br>
@@ -250,7 +355,35 @@ text-align:center;
 </div>
  
 
- 
+<div class="container-fluid text-center" style="background-color:#B4ACAB;">
+<div class="row">
+<div class="col-sm-5">
+
+<h4>Contact Us...Replay within minutes...!</h4>
+<p><span class="glyphicon glyphicon-map-marker"></span>Avengers Avenue,Scotland</p>
+<p><span class="glyphicon glyphicon-phone"></span> +1234 5792</p>
+<p><span class="glyphicon glyphicon-envelope"></span> Avengers@starktown.com</p>
+</div>
+<div class="col-sm-7">
+
+
+<div class="row">
+<div class="col-sm-6 form-group">
+<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+</div>
+<div class="col-sm-6 form-group">
+<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+</div>
+</div>
+<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+<div class="row">
+<div class="col-sm-12 form-group">
+<button class="btn btn-default pull-right" type="submit">Send</button>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 
 
