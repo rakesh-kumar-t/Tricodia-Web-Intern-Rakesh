@@ -1,45 +1,118 @@
-
-*{
-	box-sizing:border-box;
+.container-fluid_nav {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  height:20px;
 }
-.column{
-	width:300px;
-	height:300px;
-	padding:50px;
-	padding-left:80px;
-	float:left;
-	position:relative;
 }
-.row:after{
-	display:table;
-	clear:both;
-}
-
-.image{
-	opacity:1;
-	border:1px solid grey;
-	transition:.5s ease;
-	border-radius:70%;
-}
-.column:hover .image{
-	opacity:.2;
-}
-.column:hover .textpos{
-	opacity:1;
-}
-.containerimg{
-	position:relative;
-}
-.textpos{
-	position:absolute;
-	top:70px;
-	left:50px;
-	opacity:0;
+.navbar-brand img{
+	position:fixed;
+	top:8px;
+	left:5px;
+	height: 80px;
+	width: 180px;
 
 }
-.textpos h3{
-	font-family:Verdana;;
+
+.space{
+	width:100px;
+	display:inline-block;
+}
+
+.dropdown{
+	font-size:20px;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+
+.dropdown-menu {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu{
+	display: block;
 	color:black;
-	font-weight:bold;
-	font-size:30px;
+	padding:20px;
+	border-radius: 10px;
+	background-color:white;
 }
+
+.dropdown-menu a {
+	background-color:white;
+	color:black;
+	font-size: 20px;
+	font-family:"Lucida Fax";
+	font-weight:lighter;
+	padding: 12px 16px;
+    text-decoration: none;
+	text-align:center;
+    display:block;
+}
+
+.dropdown-menu a:hover{
+	color:white;
+	text-decoration: none;
+	background-color:black;
+}
+
+  body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-family:"Bree Serif";
+      font-size:40px;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      font-family:Courier;
+      line-height: 1.375em;
+      color: #303030;
+      margin-bottom: 30px;
+  }  
+
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+.bg-blue {
+      background-color:#EDC3BA;
+  }
+.text-ctr
+
+{
+text-align:center;
+}
+  
+  
+ .imagegal {
+      padding: 0px 0px 15px 0px;
+      border: none;
+      border-radius: 0;
+      background-color:#ffffff;
+  }
+ .imagegal img {
+      width:100%;
+      padding:15px;
+      margin-bottom: 10px;
+  }
+
+
+
+
+
+
+
