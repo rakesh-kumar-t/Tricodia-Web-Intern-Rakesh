@@ -1,6 +1,22 @@
-.container-fluid{
+.container-fluid_1{
 	height:100px;
 }
+
+
+nav.shrink
+{
+height:60px;
+padding:0px;
+}
+
+
+.navbar-color
+{
+background-color:#222;
+border-color: #080808;
+}
+
+
 .navbar-brand img{
 	position:fixed;
 	top:8px;
@@ -19,6 +35,7 @@
 	font-size:20px;
 	padding-top: 30px;
 	padding-bottom: 25px;
+        padding-right:15px;
 	font-weight: bold;
 }
 
