@@ -1,5 +1,6 @@
 <html>
 <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Application form</title>
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="css/bootstrap_1.css">
@@ -15,7 +16,7 @@
 
 
 
-<body bgcolor="#e0e0e0" id=myPage>
+<body bgcolor="#e0e0e0" id=myPage >
   <nav class="navbar-color navbar-inverse navbar-fixed-top">
   	<div class="container-fluid">
   		<div class="navbar-header">
@@ -67,19 +68,19 @@
     <div align=left id=form>
       <form action="action_page.html" method="get">
       <font size=2><br>
-        <div align=left id=inhead>
-        <font face="'Roboto', sans-serif" color="#424242">Enter your details</font>
+        <div align=center id=inhead>
+        <font  color="#424242">Enter your details</font>
       </div>
       <b>
         <font size=3>
 
-      <div class=col-xs-10>
+      <div class=form-group>
         <label for=fname>FULL NAME:</label> <br>
         <input type="text" class=form-control name="fname" required placeholder="Enter your fullname" ><br>
       </div>
-      <div class=col-xs-10>
+      <div class=form-group>
         <label for=sname>SUPERHERO NAME:</label><br>
-        <input tye=text class=form-control name=snmame required placeholder="Enter SUPERHERO NAME of your wish "><br>
+        <input tye=text class=form-control name=snmame required placeholder="Enter supername "><br>
       </div>
       <div class=form-group>
         <label for=country>COUNTRY &nbsp;:</label>
@@ -161,8 +162,8 @@
                 I agree to all <a href="tandc.html" target="_blank">terms and conditions</a> of the AVENGERS initiative and obliged to follow it irrespective of its frequent updations.</label></p>
       </div>
       <div class=form-group>
-        <br><input type="submit" value="Submit" class="btn btn-success">
-        <input type=reset value=Reset class="btn btn-danger">
+        <input type="submit" value="Submit" class="btn btn-success">
+            <input type=reset value=Reset class="btn btn-danger">
       </div>
     </form>
   </div>

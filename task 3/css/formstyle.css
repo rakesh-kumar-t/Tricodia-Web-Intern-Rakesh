@@ -12,20 +12,22 @@
     src: url('fonts/Roboto.ttf');
 
 }
+
+
 .form-control
 {
   font-family: 'customroboto';
 }
 .form-group
 {
-  width:80%;
+  width:100%;
   padding-left: 3%;
 }
 
 
 .btn.btn-success,.btn.btn-danger
 {
-    margin: 30px 30px;
+    margin: auto;
     font-size: 16px;
     padding: 6px 15px;
     font-family:'customrubik';
@@ -57,10 +59,12 @@ textarea
 .well.well-sm{
     font-family: 'customnunito';
     font-size: 3;
-    border: 2px solid powderblue;
-    margin-left: 32%;
-    margin-right: 32%;
+    margin: auto;
     border-radius: 15px;
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    margin: auto;
 
 }
 .well.well-lg{
@@ -77,9 +81,7 @@ textarea
     font-family:  'customnunito';
     font-size: 20;
     color: #313131;
-    border: 2px solid powderblue;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin: auto;
 
 }
 h1{
@@ -98,7 +100,7 @@ h1{
     font-size: 35;
 }
 #form{
-    padding-left: 10%;
+
     font-family:'customnunito';
     color:#616161;
 }
