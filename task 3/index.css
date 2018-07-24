@@ -35,7 +35,7 @@ border-color: #080808;
 	font-size:20px;
 	padding-top: 30px;
 	padding-bottom: 25px;
-        padding-right:15px;
+	padding-right:15px;
 	font-weight: bold;
 }
 
@@ -91,14 +91,14 @@ border-color: #080808;
 	font-family:Verdana;;
 	color:black;
 	font-weight:bold;
-	font-size:30px;	
+	font-size:30px;
 }
 
 .textpos h3{
 	font-family:Verdana;;
 	color:black;
 	font-weight:lighter;
-	font-size:15px;	
+	font-size:15px;
 }
 
 .back .container{
@@ -210,6 +210,25 @@ b.c2
 .frame{
 	margin:auto;
 
+}
+
+
+.video-container{
+	position:relative;
+	height: 0;
+	padding-top: 30px;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
 }
 
 .footer{
