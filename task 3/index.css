@@ -102,13 +102,12 @@ border-color: #080808;
 }
 
 .back .container{
-	width:100%;
 	position: relative;
 }
 
 .back .container .image{
 	opacity:1;
-	width:100%;
+	width: 100%;
 	height:auto;
 	display:block;
 	backface-visibility: hidden;
@@ -118,6 +117,8 @@ border-color: #080808;
 .back .container .textpos{
 	transition: .5s ease;
 	opacity: 0;
+	width:100%;
+	height:auto;
 	top:50%;
 	left: 50%;
 	position: absolute;
@@ -161,14 +162,16 @@ p.c1
 	font-family:Verdana;
 	color:#232955;
 	font-weight:bold;
-	font-size:30px;
+	height:auto;
+	width:100%;
 }
 b.c1
 {
 	font-family:Corbel;
 	color:#232955;
 	font-weight:bold;
-	font-size:25px;
+	height:auto;
+	width:100%;
 }
 
 
@@ -177,10 +180,13 @@ b.c2
 	font-family:Corbel;
 	color:#232955;
 	font-weight:lighter;
-	font-size:20px;
+	height:auto;
+	width:100%;
 }
 .image1{
 	opacity:1;
+	height:auto;
+	width:100%;
 	border:1px solid grey;
 	transition:.5s ease;
 }
@@ -209,7 +215,6 @@ b.c2
 
 .frame{
 	margin:auto;
-
 }
 
 
