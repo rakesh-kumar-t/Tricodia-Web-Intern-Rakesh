@@ -8,10 +8,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
   <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="index.css">
   <link rel="shortcut icon" href="images/Avengers-logo.ico" type="image/ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
-  
+
 </head>
 <body>
 
