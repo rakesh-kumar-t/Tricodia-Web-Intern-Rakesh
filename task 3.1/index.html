@@ -1,68 +1,413 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/index.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="images/Avengers-logo.ico">
+  <link rel="icon" type="image/png" href="images/Avengers-logo.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    The Avengers Initiative
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <link href="css/index.css" rel="stylesheet" />
+
 </head>
-<body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-  
-<div class="container-fluid text-center">    
-  <div class="row content">
-    <div class="col-sm-2 sidenav">
-      <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
-    </div>
-    <div class="col-sm-8 text-left"> 
-      <h1>Welcome</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <hr>
-      <h3>Test</h3>
-      <p>Lorem ipsum...</p>
-    </div>
-    <div class="col-sm-2 sidenav">
-      <div class="well">
-        <p>ADS</p>
+<body class="landing-page sidebar-collapse">
+  <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="index.html">
+          AVENGERS INITIATIVE </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
-      <div class="well">
-        <p>ADS</p>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="material-icons">apps</i> APPLY NOW
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              <a href="#" class="dropdown-item">
+                <i class="material-icons">layers</i> INTERNSHIP
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#myteam">
+              <i class="material-icons">info</i>OUR TEAM
+            </a>
+          </li>
+
+        </ul>
       </div>
     </div>
+  </nav>
+  <div class="page-header header-filter" data-parallax="true" style="background-image: url('images/avengersposter.jpg')">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="title">THE<font color=green> AVENGERS</font></h1>
+          <h4>BE PREPARED FOR SOME EXTRAORDINARY THINGS IN YOUR LIFE WITH US</h4>
+
+          <br>
+
+        </div>
+      </div>
+    </div>
   </div>
-</div>
+  <div class="main main-raised">
+    <div class="container">
+      <div class="section text-center">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h2 class="title">About Us</h2>
+            <h5 class="description">The Avengers Initiative is a secret project formed by S.H.I.E.L.D. that assemble the Avengers,
+                			               a group of the most powerful individuals,to defend Earth from imminent global threats.
+                                   </h5>
+          </div>
+        </div>
+        <div class="features">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="info">
+                <div class="icon icon-info">
+                  <img src="images/upstatefacility.png" height="30%" width="80%">
+                </div>
+                <h4 class="info-title">Upstate Facility, NY</h4>
+                <p>The Avengers Initiative
+            		    was a secret project created by S.H.I.E.L.D. to create the Avengers,
+            		      a collection of the most able individuals to defend Earth from imminent global threats
+                       which are too great for the forces of mankind to handle.
+                The Initiative was scrapped by the World Security Council after the alien incursion in New Mexico in favor of a weapons development program known as Phase 2.
+                  </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="info">
+                <div class="icon icon-success">
+                  <img src="images/avengers.png" height="30%" width="80%">
+                </div>
+                <h4 class="info-title">The AVENGERS</h4>
+                <p>Avengers is neither a division of government or any of the private agencies throughout the world.
+                    We are just a group of individuals
+            		    who teams up together when situations that demands saving the whole world arises.
+                    Avengers never work for the army or police unless
+               		they are involved in cases of dangers affecting the entire earth's race.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="info">
+                <div class="icon icon-danger">
+                  <img src="images/wakanda.jpg" height="30%" width="80%">
+                </div>
+                <h4 class="info-title">Secret Invasion</h4>
+                <p>The Revolutionary, a member of Pennsylvania's Liberteens, is actually a Skrull in disguise.
+                   He's part of a plot to put a Skrull in every state" by infiltrating each superhero team of the Initiative.
+              	    During Secret Invasion Crusader discovers that camp director Yellowjacket is actually a Skrull impostor; he almost tells the camp's counselor Trauma but changes his mind.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section text-center" id="myteam">
+        <h2 class="title">Here is our team</h2>
+        <div class="team">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="team-player">
+                <div class="card card-plain">
+                  <div class="col-md-8 ml-auto mr-auto">
+                    <img src="images/Nick_Fury.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                  </div>
+                  <h4 class="card-title">NICK FURY
+                    <br>
+                    <small class="card-description text-muted">CEO</small>
+                  </h4>
+                  <div class="card-body">
+                    <p class="card-description">Colonel Nicholas "Nick" Joseph Fury was a former officer of the United States Army and an espionage veteran of the CIA during the Cold War.
+                    </p>
+                  </div>
 
-<footer class="container-fluid text-center">
-  <p>Footer Text</p>
-</footer>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="team-player">
+                <div class="card card-plain">
+                  <div class="col-md-8 ml-auto mr-auto">
+                    <img src="images/TonyStark.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                  </div>
+                  <h4 class="card-title">TONY STARK
+                    <br>
+                    <small class="card-description text-muted">CREATOR</small>
+                  </h4>
+                  <div class="card-body">
+                    <p class="card-description">Anthony Edward "Tony" Stark is a genius, billionaire, philanthropist and the former head of Stark Industries.
+                    </p>
+                  </div>
 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="team-player">
+                <div class="card card-plain">
+                  <div class="col-md-8 ml-auto mr-auto">
+                    <img src="images/captainamerica.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                  </div>
+                  <h4 class="card-title">CAPTAIN STEVE ROGERS
+                    <br>
+                    <small class="card-description text-muted">CREATOR</small>
+                  </h4>
+                  <div class="card-body">
+                    <p class="card-description">Recipient of the Super-Soldier serum, World War II hero Steve Rogers, Captain America, fights for American ideals as one of the world’s mightiest heroes and the leader.
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="team-player">
+                <div class="card card-plain">
+                  <div class="col-md-8 ml-auto mr-auto">
+                    <img src="images/thor.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                  </div>
+                  <h4 class="card-title">THOR ODINSON
+                    <br>
+                    <small class="card-description text-muted">CREATOR</small>
+                  </h4>
+                  <div class="card-body">
+                    <p class="card-description">Thor Odinson is the current king of Asgard, a founding member of the Avengers, and the God of Thunder.
+                                                Still noone believes that gods exist.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="team-player">
+                <div class="card card-plain">
+                  <div class="col-md-8 ml-auto mr-auto">
+                    <img src="images/Bruce_Banner.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                  </div>
+                  <h4 class="card-title">BRUCE BANNER
+                    <br>
+                    <small class="card-description text-muted">CREATOR</small>
+                  </h4>
+                  <div class="card-body">
+                    <p class="card-description">Dr. Robert Bruce Banner is a genius scientist who, due to exposure to gamma radiation, transforms into the Hulk; whenever he is stressed,seriously injured.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="team-player">
+                <div class="card card-plain">
+                  <div class="col-md-8 ml-auto mr-auto">
+                    <img src="images/romanoff.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                  </div>
+                  <h4 class="card-title">NATASHA ROMANOFF
+                    <br>
+                    <small class="card-description text-muted">CREATOR</small>
+                  </h4>
+                  <div class="card-body">
+                    <p class="card-description">Despite super spy Natasha Romanoff’s checkered past, she’s become one of S.H.I.E.L.D.’s most deadly assassins and a frequent member of the Avengers.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="team-player">
+                <div class="card card-plain">
+                  <div class="col-md-8 ml-auto mr-auto">
+                    <img src="images/panther.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                  </div>
+                  <h4 class="card-title">KING T'CHALLA
+                    <br>
+                    <small class="card-description text-muted">CREATOR</small>
+                  </h4>
+                  <div class="card-body">
+                    <p class="card-description">T’Challa is the king of the secretive and highly advanced African nation of Wakanda as well as the powerful warrior known as the Black Panther.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="team-player">
+                <div class="card card-plain">
+                  <div class="col-md-8 ml-auto mr-auto">
+                    <img src="images/drstrange.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                  </div>
+                  <h4 class="card-title">DR.STEPHEN STRANGE
+                    <br>
+                    <small class="card-description text-muted">CREATOR</small>
+                  </h4>
+                  <div class="card-body">
+                    <p class="card-description">Doctor Strange serves as the Sorcerer Supreme, the primary protector of Earth against magical and mystical threats.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="team-player">
+                <div class="card card-plain">
+                  <div class="col-md-8 ml-auto mr-auto">
+                    <img src="images/peter parker.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                  </div>
+                  <h4 class="card-title">PETER PARKER
+                    <br>
+                    <small class="card-description text-muted">CREATOR</small>
+                  </h4>
+                  <div class="card-body">
+                    <p class="card-description">Peter Benjamin Parker was a high school student and a superhero with spider-like abilities, fighting crime as his alter ego Spider-Man.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="team-player">
+                <div class="card card-plain">
+                  <div class="col-md-8 ml-auto mr-auto">
+                    <img src="images/hawkeye.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                  </div>
+                  <h4 class="card-title">CLINT BARTON
+                    <br>
+                    <small class="card-description text-muted">CREATOR</small>
+                  </h4>
+                  <div class="card-body">
+                    <p class="card-description">Clinton Francis "Clint" Barton, better known as Hawkeye, is a former special agent of S.H.I.E.L.D., where he worked under the supervision of Phil.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="team-player">
+                <div class="card card-plain">
+                  <div class="col-md-8 ml-auto mr-auto">
+                    <img src="images/bucky barnes.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                  </div>
+                  <h4 class="card-title">BUCKY BARNES
+                    <br>
+                    <small class="card-description text-muted">CREATOR</small>
+                  </h4>
+                  <div class="card-body">
+                    <p class="card-description">Sergeant James Buchanan "Bucky" Barnes was a former soldier of the 107th Infantry Regiment and the childhood best friend of Steve Rogers.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="team-player">
+                <div class="card card-plain">
+                  <div class="col-md-8 ml-auto mr-auto">
+                    <img src="images/scottlang.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                  </div>
+                  <h4 class="card-title">SCOTT LANG
+                    <br>
+                    <small class="card-description text-muted">CREATOR</small>
+                  </h4>
+                  <div class="card-body">
+                    <p class="card-description">Scott Edward Harris Lang is a former criminal who was convinced by Pym Technologies CEO Hank Pym to take up his mantle as the new Ant-Man.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="section section-contacts">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h2 class="text-center title">Work with us</h2>
+            <h4 class="text-center description">
+              Divide details about your work into parts. Write a few lines about each achievement and contact us about any further collaboration. We will responde get back to you as soon as we can.
+            </h4>
+            <form class="contact-form">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label class="bmd-label-floating">Your Name</label>
+                    <input type="email" class="form-control">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label class="bmd-label-floating">Your Email</label>
+                    <input type="email" class="form-control">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="exampleMessage" class="bmd-label-floating">Your Message</label>
+                <textarea type="email" class="form-control" rows="4" id="exampleMessage"></textarea>
+              </div>
+              <div class="row">
+                <div class="col-md-4 ml-auto mr-auto text-center">
+                  <button class="btn btn-primary btn-raised">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer footer-default">
+    <div class="container">
+      <nav class="float-center">
+        <strong>
+        2018 MARVEL Avengers Initiative&reg;<br>
+  			&copy;All rights reserved.
+        </strong>
+      </nav>
+
+    </div>
+  </footer>
+
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+  <script src="js/popper.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap-material-design.min.js" type="text/javascript"></script>
+  <script src="js/material-kit.js" type="text/javascript"></script>
+  <script>
+  $(document).ready(function(){
+
+    $(".navbar a, footer a[href='#myteam']").on('click', function(event) {
+
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 900, function(){
+          window.location.hash = hash;
+        });
+      }
+    });
+  })
+  </script>
 </body>
+
 </html>
