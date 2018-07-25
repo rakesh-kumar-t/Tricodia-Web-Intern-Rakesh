@@ -11,122 +11,7 @@
   <link rel="shortcut icon" href="images/Avengers-logo.ico" type="image/ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
-  <style>
-
-.container-fluid_nav {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  height:20px;
-}
-}
-.navbar-brand img{
-	position:fixed;
-	top:8px;
-	left:5px;
-	height: 80px;
-	width: 180px;
-
-}
-
-.space{
-	width:100px;
-	display:inline-block;
-}
-
-.dropdown{
-	font-size:20px;
-	padding-top: 30px;
-	padding-bottom: 25px;
-	font-weight: bold;
-}
-
-.dropdown-menu {
-	display: none;
-	position: absolute;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-}
-
-.dropdown:hover .dropdown-menu{
-	display: block;
-	color:black;
-	padding:20px;
-	border-radius: 10px;
-	background-color:white;
-}
-
-.dropdown-menu a {
-	background-color:white;
-	color:black;
-	font-size: 20px;
-	font-family:"Lucida Fax";
-	font-weight:lighter;
-	padding: 12px 16px;
-    text-decoration: none;
-	text-align:center;
-    display:block;
-}
-
-.dropdown-menu a:hover{
-	color:white;
-	text-decoration: none;
-	background-color:black;
-}
-
-  body {
-      font: 400 15px Lato, sans-serif;
-      line-height: 1.8;
-      color: #818181;
-  }
-  h2 {
-      font-size: 24px;
-      text-transform: uppercase;
-      color: #303030;
-      font-family:"Bree Serif";
-      font-size:40px;
-      margin-bottom: 30px;
-  }
-  h4 {
-      font-size: 19px;
-      font-family:Courier;
-      line-height: 1.375em;
-      color: #303030;
-      margin-bottom: 30px;
-  }  
-
-  .container-fluid {
-      padding: 60px 50px;
-  }
-  .bg-grey {
-      background-color: #f6f6f6;
-  }
-.bg-blue {
-      background-color:#EDC3BA;
-  }
-.text-ctr
-
-{
-text-align:center;
-}
   
-  
- .imagegal {
-      padding: 0px 0px 15px 0px;
-      border: none;
-      border-radius: 0;
-      background-color:#ffffff;
-  }
- .imagegal img {
-      width:100%;
-      padding:15px;
-      margin-bottom: 10px;
-  }
-
-
-  </style>
 </head>
 <body>
 
@@ -135,48 +20,45 @@ text-align:center;
 
 
 
-<div class="container-fluid_nav">
-<div align=left>
-      <nav class="navbar-inverse navbar-fixed-top">
-        <div class="container-fluid_nav">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">
-              <img src="images/avengersabout.png" height=150 width=600>
-            </a>
-          </div>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html" >
+          AVENGERS</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
 
-          <div class="nav navbar-nav navbar-right">
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown"
-              href="#">RECRUITMENT<span class="glyphicon glyphicon-industry"></span></a>
-              <ul class="dropdown-menu">
-              <a href="form.html">Apply Now</a>
-              <a href="appstatus.html">Check application status</a>
-              </ul>
-            </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">RECRUITMENT<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="form.html">Apply now</a></li>
+              <li><a href="appstatus.html">Check application status</a></li>
 
-            <li class="dropdown">
-              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" href="#">
-                <span class="glyphicon glyphicon-intern"></span>INTERNSHIPS</a>
-              <ul class="dropdown-menu">
-                <a href="internform.html">Apply</a>
-                <a href="tandc.html">Terms & Conditions</a>
-              </ul>
+            </ul>
+          </li>
+          <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">INTERNSHIPS<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="internform.html">Apply now</a></li>
+                    <li><a href="tandc.html">View t&c</a></li>
+                  </ul>
+          </li>
 
-            </li>
 
-            <li class="dropdown">
-              <a href="industrialvisit.html"><span class="glyphicon glyphicon-industry"></span>INDUSTRIAL VISITS</a>
-            </li>
 
-            <li class="dropdown active">
-              <a href="About.html"><span class="glyphicon glyphicon-credit"></span>CREATORS</a>
-            </li>
-          </ul>
-          </div>
-        </div>
-      </nav>
+          <li><a href=""industrialvisit.html"">INDUSTRIAL VISITS</a></li>
+          <li><a href="about.html">CREATORS</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
 
 
 
@@ -236,7 +118,7 @@ text-align:center;
   </div>
 </div>
 </div>
-  
+
  <div class="container-fluid bg-grey text-center">
   <div class="row">
 <div class="col-sm-4 col-xs-12">
@@ -268,9 +150,9 @@ text-align:center;
   </div>
 </div>
 </div>
-  
+
  <div class="container-fluid bg-grey text-center">
- 
+
   <div class="row">
    <div class="col-sm-4 col-xs-12">
 <div class="panel panel-default">
@@ -301,8 +183,8 @@ text-align:center;
   </div>
 </div>
 </div>
-  
- 
+
+
  <div class="container-fluid text-center bg-grey">
 
   <div class="row">
@@ -335,7 +217,7 @@ text-align:center;
   </div>
 </div>
 </div>
- 
+
 
 <div class="container-fluid text-center" style="background-color:#B4ACAB;">
 <div class="row">
@@ -371,4 +253,3 @@ text-align:center;
 
 </body>
 </html>
-
