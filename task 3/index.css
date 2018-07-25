@@ -1,20 +1,9 @@
-.container-fluid_1{
-	height:100px;
-}
 
 
-nav.shrink
-{
-height:60px;
-padding:0px;
-}
 
 
-.navbar-color
-{
-background-color:#222;
-border-color: #080808;
-}
+
+
 
 
 .navbar-brand img{
@@ -26,18 +15,9 @@ border-color: #080808;
 
 }
 
-.space{
-	width:100px;
-	display:inline-block;
-}
 
-.dropdown{
-	font-size:20px;
-	padding-top: 30px;
-	padding-bottom: 25px;
-	padding-right:15px;
-	font-weight: bold;
-}
+
+
 
 .dropdown-menu {
 	display: none;
@@ -84,7 +64,7 @@ border-color: #080808;
 	font-family:Verdana;
 	color:black;
 	font-weight:bold;
-	font-size:35px;	
+	font-size:35px;
 }
 
 .textpos h1{
@@ -240,15 +220,3 @@ b.c2
 	position:relative;
 	bottom:0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
