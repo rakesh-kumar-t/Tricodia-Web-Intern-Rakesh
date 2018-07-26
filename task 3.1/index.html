@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-
+<link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="css/login.css">
 
   <link rel="apple-touch-icon" sizes="76x76" href="images/Avengers-logo.ico">
@@ -59,7 +59,8 @@
       <div class="row">
         <div class="col-md-12">
           <h1 class="title">THE<font color=green size=14> AVENGERS</font></h1>
-          <h4><font face="verdana" size=5>BE PREPARED FOR SOME EXTRAORDINARY THINGS IN YOUR LIFE WITH US</font></h4>
+     <div class="typed"><h4>BE PREPARED FOR SOME EXTRAORDINARY THINGS IN YOUR LIFE WITH US</h4>
+</div> 
 
           <br>
 
@@ -70,7 +71,7 @@
   <div class="main main-raised">
     <div class="container">
       <div class="section text-center">
-        <div class="row">
+        <div class="row slideanim">
           <div class="col-md-8 ml-auto mr-auto">
             <h2 class="title">About Us</h2>
             <h5 class="description">The Avengers Initiative is a secret project formed by S.H.I.E.L.D. that assemble the Avengers,
@@ -79,7 +80,7 @@
           </div>
         </div>
         <div class="features">
-          <div class="row">
+          <div class="row slideanim">
             <div class="col-md-4">
               <div class="info">
                 <div class="icon icon-info">
@@ -124,7 +125,7 @@
       <div class="section text-center" id="myteam">
         <h2 class="title">Here is our team</h2>
         <div class="team">
-          <div class="row">
+          <div class="row slideanim">
             <div class="col-md-3">
               <div class="team-player">
                 <div class="card card-plain">
@@ -340,14 +341,14 @@
         </div>
       </div>
       <div class="section section-contacts">
-        <div class="row">
+        <div class="row slideanim">
           <div class="col-md-8 ml-auto mr-auto">
             <h2 class="text-center title">Work with us</h2>
             <h4 class="text-center description">
               Divide details about your work into parts. Write a few lines about each achievement and contact us about any further collaboration. We will responde get back to you as soon as we can.
             </h4>
             <form class="contact-form">
-              <div class="row">
+              <div class="row slideanim">
                 <div class="col-md-6">
                   <div class="form-group">
                     <label class="bmd-label-floating">Your Name</label>
@@ -378,7 +379,7 @@
       </div>
 
       <div class="section" id="intern" >
-      <div class="row">
+      <div class="row slideanim">
       <div class="col-md-8 ml-auto mr-auto">
       <form role="form">
       <h2>Please Sign Up <small>Be with AVENGERS </small></h2>
@@ -491,6 +492,39 @@
       }
     });
   })
+
+$(document).ready(function(){
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+  
+    if (this.hash !== "") {
+     
+      event.preventDefault();
+
+      
+      var hash = this.hash;
+
+    
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+   
+        window.location.hash = hash;
+      });
+    } 
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
   </script>
 </body>
 
