@@ -1,0 +1,205 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Application form</title>
+  <link rel="stylesheet" href="css/bootstrap_1.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/formstyle.css">
+
+    <link rel="shortcut icon" href="images/Avengers-logo.ico" type="image/ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+
+
+<body bgcolor="#e0e0e0" id=myPage >
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html" >
+          AVENGERS</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">RECRUITMENT<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="form.html">Apply now</a></li>
+              <li><a href="appstatus.html">Check application status</a></li>
+
+            </ul>
+          </li>
+          <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">INTERNSHIPS<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="internform.html">Apply now</a></li>
+                    <li><a href="tandc.html">View t&c</a></li>
+                  </ul>
+          </li>
+
+
+
+          <li><a href=""industrialvisit.html"">INDUSTRIAL VISITS</a></li>
+          <li><a href="about.html">CREATORS</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <br><br>
+
+
+
+      <div id=formhead align=left>
+          <h1>Apply to become an AVENGER right now!!</h1>
+          <hr>
+        </div>
+
+  <section align=center class="well well-sm">
+    <div align=left id=form>
+      <form action="action_page.html" method="get">
+      <font size=2><br>
+        <div align=center id=inhead>
+        <font  color="#424242">Enter your details</font>
+      </div>
+      <b>
+        <font size=3>
+
+      <div class=form-group>
+        <label for=fname>FULL NAME:</label> <br>
+        <input type="text" class=form-control name="fname" required placeholder="Enter your fullname" ><br>
+      </div>
+      <div class=form-group>
+        <label for=sname>SUPERHERO NAME:</label><br>
+        <input tye=text class=form-control name=snmame required placeholder="Enter supername "><br>
+      </div>
+      <div class=form-group>
+        <label for=country>COUNTRY &nbsp;:</label>
+                          <select class=form-control id=country name=country>
+                          <option value="Argentina" >Argentina</option><br><br>
+                          <option value="Australia" >Australia</option><br>
+                          <option value="Austria" >Austria</option><br>
+                          <option value="Bangladesh" >Bangladesh</option><br>
+                          <option value="Brazil" >Brazil</option><br>
+                          <option value="Canada" >Canada</option><br>
+                          <option value="China" >China</option><br>
+                          <option value="Denmark" >Denmark</option><br>
+                          <option value="Egypt" >Egypt</option><br>
+                          <option value="Ethyopia" >Ethyopia</option><br>
+                          <option value="Equador" >Equador</option><br>
+                          <option value="Finland" >Finland</option><br>
+                          <option value="Germany" >Germany</option><br>
+                          <option value="Hungary" >Hungary</option><br>
+                          <option value="Iceland" >Iceland</option><br>
+                          <option value="Ireland" >Ireland</option><br>
+                          <option value="India" selected>India</option><br>
+                          <option value="Japan" >Japan</option><br>
+                          <option value="Jordan" >Jordan</option><br>
+                          <option value="Kazakisthan" >Kazakisthan</option><br>
+                          <option value="Korea" >Korea</option><br>
+                          <option value="Malaysia" >Malaysia</option><br>
+                          <option value="Morocco" >Morocco</option><br>
+                          <option value="Netherlands" >Netherlands</option><br>
+                          <option value="Nigeria" >Nigeria</option><br>
+                          <option value="Pakistan" >Pakistan</option><br>
+                          <option value="Portugal" >Portugal</option><br>
+                          <option value="Russia">Russia</option><br>
+                          <option value="Singapore" >Singapore</option><br>
+                          <option value="Spain" >Spain</option><br>
+                          <option value="Switzerland" >Switzerland</option><br>
+                        </select><br>
+      </div>
+      <div class=form-group>
+          GENDER:<br>
+          <div class="radio">
+            <label><input type=radio name=gender checked required >Male</label>
+          </div>
+          <div class="radio">
+            <label><input name=gender type=radio required >Female</label>
+          </div>
+          <div class="radio">
+            <label><input name=gender type=radio required >Transgender</label>
+          </div>
+      </div>
+      <div class=form-group>
+                    SKILLS/ABILITES:(check all that apply)<br>
+                    <input type=checkbox id=flying name=field><label for=flying>FLYING</label><br>
+                    <input type=checkbox id=swimming name=field ><label for=swimming>SWIMMING</label><br>
+                    <input type=checkbox id="inskill" name=field><label for=inskill>INSTANT KILL</label><br>
+                    <input type=checkbox id=climbing name=field ><label for=climbing>CLIMBING</label><br>
+                    <input type=checkbox id=shrinking name=field><label for=shrinking>SHRINKING</label><br>
+                    <input type=checkbox id=firepower name=field ><label for=firepower>FIREPOWER</label><br>
+                    <input type=checkbox id=mpower name=field ><label for=mpower>MYSTIC POWER</label><br>
+                    <input type=checkbox id=others name=field><label for=others1>OTHERS(specify)</label><br>
+                    <br>
+                      <textarea  class=form-control rows="4" cols="50" name=otherabilities id=others1 placeholder="Other skills you posess" ></textarea>
+      </div><br>
+      <div class=form-group>
+        FAVORITE AVENGER:<select name="superhero" class=form-control>
+                <option value="HULK" selected>HULK</option>
+                <option value="IRON MAN">IRON MAN</option>
+                <option value="CAPTAIN AMERICA">CAPTAIN AMERICA</option>
+                <option value="THOR">THOR</option>
+                <option value="SPIDER MAN">SPIDER MAN</option>
+                <option value="ANT MAN">ANT MAN</option>
+                <option value="BLACK PANTHER">BLACK PANTHER</option>
+                <option value="VISION">VISION</option>
+                <option value="DR.STRANGE">DR.STRANGE</option>
+                <option value="NICK FURY">NICK FURY</option>
+              </select><br>
+      </div>
+      <div class=form-group>
+        <br><p><label for=agree><input type=checkbox name=finalagree required id=agree>
+                I agree to all <a href="tandc.html" target="_blank">terms and conditions</a> of the AVENGERS initiative and obliged to follow it irrespective of its frequent updations.</label></p>
+      </div>
+      <div class=form-group>
+        <input type="submit" value="Submit" class="btn btn-success">
+            <input type=reset value=Reset class="btn btn-danger">
+      </div>
+    </form>
+  </div>
+</section>
+<br><br><br><br>
+<div style="background-color:#212121" align=center id=footer>
+  <hr>
+  <footer class="text-center">
+    <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a><br>
+    <font size=4>
+
+  2018 MARVEL Avengers Initiative&reg;<br>
+  &copy;All rights reserved.
+</div>
+</footer>
+<script>
+$(document).ready(function(){
+
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+})
+</script>
+</div>
+
+</body>
+</html>
