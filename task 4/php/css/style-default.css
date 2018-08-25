@@ -1,0 +1,118 @@
+a {
+  color: #f8204b; }
+  a:hover {
+    color: rgba(248, 32, 75, 0.8); }
+
+.page-header-alpha .navbar-mainmenu .nav-item a:hover {
+  color: #f8204b; }
+
+.btn-white {
+  color: #ffffff;
+  border: 1px solid transparent;
+  background-color: #f8204b; }
+  .btn-white:hover {
+    background-color: rgba(248, 32, 75, 0.8);
+    color: #ffffff; }
+
+.btn-outline-primary {
+  color: #f8204b;
+  border-color: currentColor; }
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  color: rgba(248, 32, 75, 0.5);
+  border-color: currentColor; }
+
+.btn-transp-arrow.btn-primary.active, .btn-transp-arrow.btn-primary:active,
+.btn-transp-arrow.btn-primary:hover {
+  background-color: rgba(77, 77, 77, 0.05);
+  color: #8b8b8b;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+
+/* subscription form */
+.form-container-transparent.form-container-white .form-desc h4 {
+  color: #ffffff; }
+
+.form-container-transparent.form-container-white .form-input label {
+  color: #ffffff; }
+
+.form-control-outline,
+.form-control-line {
+  border-color: #ffffff; }
+  .form-control-outline:focus,
+  .form-control-line:focus {
+    border-color: #adadad; }
+
+.page-cover:after {
+  content: "";
+
+  background: linear-gradient(to right, #13547a,#80d0c7);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0.7; }
+
+
+.well {
+    min-height: 20px;
+    padding: 14px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    color: #13547a;
+    font-size: 14pt;
+    font-weight:700;
+}
+
+
+.formbg{
+   background: linear-gradient(to right,#13547a,#80d0c7 );
+   padding-left: 19px;
+   padding-right: 19px;
+   /*   #13547a,#80d0c7:green aurora;
+        #01579B, #29B6F6:deepblue to blue;    */
+}
+
+/*to remove spinners from input type=number tag*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+   input[type=radio] {
+    border: 1px;
+    width: 100%;
+    height: 1.4em;
+}
+
+
+.form-box {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  border-radius: 7px; /*or 2px*/
+  border: 2px solid white;
+  margin-top: 27px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.row{
+  padding-left:7px; 
+  padding-right:7px;
+}
+.docs{
+   padding-left:20px; 
+   padding-right:20px; 
+}
+
+
